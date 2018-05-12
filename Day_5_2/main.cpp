@@ -45,6 +45,8 @@ struct DFromNothing {
 
 void polyMorphDemo1()
 {
+    // nie zachodzi tu zaden polimorfizm
+
     cout << "polyMorphDemo1()..." << endl;
 
     A a;
@@ -97,6 +99,7 @@ void polyMorphDemo2()
     pBB->fA(); pBB->fB(); pBB->fC();
     cout << endl;
 
+    // 3
     cout << "constructing CfromB..." << endl;
     BfromA * pBC = new CfromB; cout << endl;
     cout << "calling methods with the use of 'BfromA * pBC = new CfromB'" << endl;
@@ -119,7 +122,7 @@ void paramPolymDemoFun(T polyValue)
     polyValue.fC();
 }
 
-void polyMorphDemo3()
+void polyMorphDemo3() // polimorfizm parametryczny
 {
     cout << "polyMorphDemo3()..." << endl;
 

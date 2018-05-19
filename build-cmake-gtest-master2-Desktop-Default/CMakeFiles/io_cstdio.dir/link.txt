@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/io_cstdio.dir/src/io/cstdio.cpp.o  -o io_cstdio 

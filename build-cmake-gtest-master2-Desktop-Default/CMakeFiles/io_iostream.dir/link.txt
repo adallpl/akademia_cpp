@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/io_iostream.dir/src/io/iostream.cpp.o  -o io_iostream 

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/example.cpp
+example.hpp
+/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/example.hpp
+
+/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/example.hpp
+

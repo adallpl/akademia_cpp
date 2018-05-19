@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gtest_example"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\gtest\;CMake Files\..\;CMake Files\..\build-cmake-gtest-master2-Desktop-Default\;CMake Files\..\build-cmake-gtest-master2-Desktop-Default\lib\;CMake Files\..\build-cmake-gtest-master2-Desktop-Default\lib\gtest\;CMake Files\..\build-cmake-gtest-master2-Desktop-Default\lib\gtest\gtest\;CMake Files\..\build-cmake-gtest-master2-Desktop-Default\lib\gtest\gtest\tmp\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="guarantees">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/guarantees" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 guarantees"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="guarantees/fast">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/guarantees" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 guarantees/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="resources">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/resources" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 resources"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="resources/fast">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/resources" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 resources/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io_cstdio">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/io_cstdio" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 io_cstdio"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io_cstdio/fast">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/io_cstdio" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 io_cstdio/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libstuff">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/liblibstuff.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 libstuff"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libstuff/fast">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/liblibstuff.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 libstuff/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="templates">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/templates" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 templates"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="templates/fast">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/templates" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 templates/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io_manips">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/io_manips" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 io_manips"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io_manips/fast">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/io_manips" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 io_manips/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io_exceptions">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/io_exceptions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 io_exceptions"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io_exceptions/fast">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/io_exceptions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 io_exceptions/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io_iostream">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/io_iostream" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 io_iostream"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io_iostream/fast">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/io_iostream" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 io_iostream/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exceptions">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/exceptions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 exceptions"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exceptions/fast">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/exceptions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 exceptions/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/lib/gtest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/lib/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/lib/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/lib/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/lib/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runTest">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/test/runTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src"/>
+					<Add directory="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/lib/gtest/gtest/src/gtest/googletest/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/test/Makefile&quot;  VERBOSE=1 runTest"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runTest/fast">
+				<Option output="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/test/runTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src"/>
+					<Add directory="/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/lib/gtest/gtest/src/gtest/googletest/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/test/Makefile&quot;  VERBOSE=1 runTest/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/example.cpp">
+			<Option target="libstuff"/>
+		</Unit>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/example.hpp">
+			<Option target="libstuff"/>
+		</Unit>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/exceptions.cpp">
+			<Option target="exceptions"/>
+		</Unit>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/guarantees.cpp">
+			<Option target="guarantees"/>
+		</Unit>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/io/cstdio.cpp">
+			<Option target="io_cstdio"/>
+		</Unit>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/io/exceptions.cpp">
+			<Option target="io_exceptions"/>
+		</Unit>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/io/iostream.cpp">
+			<Option target="io_iostream"/>
+		</Unit>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/io/manips.cpp">
+			<Option target="io_manips"/>
+		</Unit>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/resources.cpp">
+			<Option target="resources"/>
+		</Unit>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/templates.cpp">
+			<Option target="templates"/>
+		</Unit>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/test/example.cpp">
+			<Option target="runTest"/>
+		</Unit>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/test/main.cpp">
+			<Option target="runTest"/>
+		</Unit>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/test/rational.cpp">
+			<Option target="runTest"/>
+		</Unit>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/lib/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\gtest\"/>
+		</Unit>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/../build-cmake-gtest-master2-Desktop-Default/lib/gtest/gtest/tmp/gtest-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\..\build-cmake-gtest-master2-Desktop-Default\lib\gtest\gtest\tmp\"/>
+		</Unit>
+		<Unit filename="/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

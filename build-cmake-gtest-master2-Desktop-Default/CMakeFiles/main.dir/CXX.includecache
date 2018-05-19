@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/example.hpp
+
+/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/main.cpp
+iostream
+-
+example.hpp
+/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/example.hpp
+rational.hpp
+/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/rational.hpp
+memory
+-
+cstdio
+-
+cstdlib
+-
+
+/home/user/PROJECT/akademia_cpp/cmake-gtest-master2/src/rational.hpp
+iostream
+-
+

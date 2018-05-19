@@ -144,5 +144,10 @@ int main()
     std::unique_ptr<Expression> l5{new Add{std::move(l4), std::move(l5)}};
     Printer p{};
     p.visit(*add);
+
+
+    Evaluator e;
+    add -> accept(e);
+    std::cout << e.getValue() << std::endl;
     return 0;
 }

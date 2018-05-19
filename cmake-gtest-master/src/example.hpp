@@ -250,6 +250,11 @@ public:
                                    // kompilator wie ze funkcja ma z zalozenia nadpisywac funkcje z klasy bazowej
         return val;
     }
+    double get_value()
+    {
+        return val;
+    }
+
     void accept(Visitor& v) const // najbardziej pasujacy typ bedzie wybrany przy przeciazaniu!
     {
         v.visit(*this);
@@ -272,8 +277,8 @@ public:
         delete right;
     }*/ // nie potrzebujemy destruktora bo mamy unique_ptr!
 
-    Expression& getleft();
-    Expression& getleft();
+    Expression& getleft() const {return *left; }
+    Expression& getRight() const {return *right; }
 };
 
 
@@ -340,6 +345,51 @@ public:
     }
     void visit(const Multiply& e) override {
 
+    }
+};
+
+double eval_expression(const Expression & e)
+{
+    // gry zrobiy to static_cast to bedzie to niebieszpieczne rzuztowaie
+    // jesli dostalismy nie nulla to:
+
+   if(const Literal* lit = dynamic_cast<const Literal*>(&e));   {
+       return lit -> getValue();
+   } else if(cosnt Add* add = dynamic_cast<const Add>*(&e)){
+       return eval_expression(add->getLeft()) +
+               eval_expression(add->getRight);
+   }
+    else if(const Multiply* add = dynamic_cast){
+       returneval_expression(add-> getLeft()) *
+               eval_expression(add-> getRight());
+   }
+}
+
+//visitor ewauluujacy
+
+class Evaluator: public Visitor{
+    double value;
+public:
+    void visit(const Literal& e ) override{
+        value = e.get_value();
+    }
+    // accpet wa\ola visit
+    void visit(const Add& e) override{
+        e.getleft().accept(*this);
+        double = leftValue = value;
+        e.getRight().accept(*this);
+        double = rightValue = value;
+        value = leftValue + rightValue;
+    }
+    void visit(const Multiply& e) override{
+        e.getleft().accept(*this);
+        double = leftValue = value;
+        e.getRight().accept(*this);
+        double = rightValue = value;
+        value = leftValue * rightValue;
+    }
+    double getValue() const {
+        return value;
     }
 };
 

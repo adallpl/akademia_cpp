@@ -1,0 +1,1 @@
+/usr/bin/g++    -rdynamic CMakeFiles/runTest.dir/example.cpp.o CMakeFiles/runTest.dir/rational.cpp.o CMakeFiles/runTest.dir/main.cpp.o  -o runTest ../liblibstuff.a ../lib/gtest/gtest/src/gtest-build/googlemock/gtest/libgtest.a -lpthread 

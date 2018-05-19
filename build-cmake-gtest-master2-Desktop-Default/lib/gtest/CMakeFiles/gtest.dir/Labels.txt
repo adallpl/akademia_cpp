@@ -1,0 +1,13 @@
+# Target labels
+ gtest
+# Source files and their labels
+/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/lib/gtest/CMakeFiles/gtest
+/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/lib/gtest/CMakeFiles/gtest.rule
+/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/lib/gtest/CMakeFiles/gtest-complete.rule
+/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/lib/gtest/gtest/src/gtest-stamp/gtest-install.rule
+/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/lib/gtest/gtest/src/gtest-stamp/gtest-mkdir.rule
+/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/lib/gtest/gtest/src/gtest-stamp/gtest-download.rule
+/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/lib/gtest/gtest/src/gtest-stamp/gtest-update.rule
+/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/lib/gtest/gtest/src/gtest-stamp/gtest-patch.rule
+/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/lib/gtest/gtest/src/gtest-stamp/gtest-configure.rule
+/home/user/PROJECT/akademia_cpp/build-cmake-gtest-master2-Desktop-Default/lib/gtest/gtest/src/gtest-stamp/gtest-build.rule
